@@ -1,0 +1,52 @@
+   @mixin family__font__size($family, $size) {
+       font-family: $family;
+       font-size: $size;
+   }
+   
+   @mixin separate {
+       border-top: 20px solid white;
+       padding-top: 70px;
+       width: 100%;
+   }
+   
+   @mixin scroll__arrow($dg) {
+       width: 10px;
+       height: 10px;
+       border-bottom: 2px solid white;
+       border-left: 2px solid white;
+       transform: rotate($dg);
+       z-index: 50;
+   }
+   
+   @mixin scroll__circle() {
+       height: 50px;
+       width: 50px;
+       border: 2px solid white;
+       border-radius: 50%;
+   }
+   
+   @mixin bg__circle() {
+       width: 13px;
+       height: 13px;
+       background: #00CDA4;
+       border-radius: 50%;
+   }
+   
+   @mixin all__title__wrapper {
+       h2 {
+           font-family: 'PFDinTextCondPro-Thin', serif;
+           font-size: 50px;
+           text-align: center;
+           padding-bottom: 30px;
+           font-weight: 100;
+           min-width: 225px;
+       }
+       p {
+           font-family: 'PFDinTextCondPro-Light', serif;
+           font-size: 18px;
+           width: 465px;
+           text-align: center;
+           margin: 0 auto;
+           padding-bottom: 20px;
+       }
+   }

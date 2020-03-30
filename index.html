@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RousePoint.com</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/all.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="menu__wrapper">
+                <p>rousepoint<span>.</span>com</p>
+                <div class="menu__inner">
+                    <li><a href="#Home">main</a></li>
+                    <li><a href="#About">about</a></li>
+                    <li><a href="#Services">services</a></li>
+                    <li><a href="#Cases">cases</a></li>
+                    <li><a href="#Contacts">contacts</a></li>
+                </div>
+            </nav>
+
+            <div id="Home" class="logo__wrapper">
+                <a href="#Home">
+
+                    <img class="logo__inner" src="data:img/png;base64,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"
+                        alt="rosepoint_logo">
+                </a>
+
+            </div>
+
+            <div class="scroll__wrapper">
+                <a href="#footer-cat" class="scroll__down__wrapper">
+                    <div class="scroll__down__inner"></div>
+                </a>
+                <p>Lorem ipsum blavla blalblalbbal</p>
+            </div>
+        </header>
+
+
+        <section class="about__wrapper">
+            <div class="title__wrapper">
+                <h2 id="About">about us</h2>
+                <div class="circle"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="content__wrapper">
+                <p>Lorem ipsum dolor sit amet, consecte- tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla mco laboris nisi ut aliquip ex ea corn modo consequat.</p>
+                <img class="cut__img" src="./assets/img/cat.png" alt="scroll_right">
+                <a href="#" class="scroll__right__wrapper">
+                    <div class="circle__around"></div>
+                    <div class="scroll__right__inner"></div>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="services__wrapper">
+            <div class="title__wrapper">
+                <h2 id="Services">our services</h2>
+                <div class="circle"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="container__wrapper">
+
+                <a href="#" class="container__inner mouse">
+                    <i class="fas fa-mouse"></i>
+                    <h3>well SEO</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing élit, sed do eiusmod tempor incidi- dunt ut labore et dotore magna aliqua.</p>
+                </a>
+
+
+                <a href="#" class="container__inner eye">
+                    <i class="far fa-eye"></i>
+                    <h3>awesome design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing élit, sed do eiusmod tempor incidi- dunt ut labore et dotore magna aliqua.</p>
+                </a>
+                <a href="#" class="container__inner block">
+                    <i class="fab fa-wpforms"></i>
+                    <h3>clean code</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing élit, sed do eiusmod tempor incidi- dunt ut labore et dotore magna aliqua.</p>
+                </a>
+            </div>
+
+            <div class="container__wrapper">
+                <a href="#" class="container__inner keyboard">
+                    <i class="fas fa-keyboard"></i>
+                    <h3>great SMM</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing élit, sed do eiusmod tempor incidi- dunt ut labore et dotore magna aliqua.</p>
+                </a>
+                <a href="#" class="container__inner light_bulb">
+                    <i class="far fa-lightbulb"></i>
+                    <h3>creative ideas</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing élit, sed do eiusmod tempor incidi- dunt ut labore et dotore magna aliqua.</p>
+                </a>
+                <a href="#" class="container__inner shield">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>wonderful support</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing élit, sed do eiusmod tempor incidi- dunt ut labore et dotore magna aliqua.</p>
+                </a>
+            </div>
+
+        </section>
+        <section class="cases__wrapper">
+            <div class="title__wrapper">
+                <h2 id="Cases">our cases</h2>
+                <div class="circle"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="container__wrapper">
+
+                <i class="fas fa-chevron-left previous__slider"></i>
+                <a href="#" class="slider__inner">
+                    <div class="overlay">
+                        <img id="testimg" src="./assets/img/cases.png" width="240px" height="285px" alt="slide1">
+
+                        <i class="fas fa-chevron-circle-right next__in__circle"></i>
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="slider__inner">
+                    <div class="overlay">
+                        <img src="./assets/img/cases.png" width="240px" height="285px" alt="slide2">
+                        <i class="fas fa-chevron-circle-right next__in__circle"></i>
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </a>
+                <a href="#" class="slider__inner">
+                    <div class="overlay">
+                        <img src="./assets/img/cases.png" width="240px" height="285px" alt="slide3">
+                        <i class="fas fa-chevron-circle-right next__in__circle"></i>
+                        <h3>Lorem ipsum</h3>
+                        <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </a>
+
+                <i class="fas fa-chevron-right next__slider"></i>
+            </div>
+        </section>
+
+        <section class="contact__wrapper">
+
+            <div class="title__wrapper">
+                <h2 id="Contacts">contact us</h2>
+                <div class="circle"></div>
+            </div>
+
+            <div class="form__wrapper">
+
+                <div class="form__inner">
+                    <form action="">
+                        <div class="email__wrapper">
+                            <div class="email__inner">
+                                <label for="emailT" id="email__label">email:</label>
+                                <input type="text" class="emailT" pattern="[@\.0-9 _ a-zA-Za-яА-ЯёЁ ]+" placeholder="Your email..." autofocus onfocus="this.setSelectionRange(this.value.length, this.value.length);">
+                            </div>
+                        </div>
+
+                        <div class="message__wrapper">
+                            <div class="message__inner">
+
+                                <label id="message__label">message: </label>
+                                <textarea rows="10 " cols="30 " name="message" placeholder="Your message... "></textarea>
+
+                            </div>
+                        </div>
+
+
+                        <label for="btn-submit"><input type="button" name="btn-submit" value="go"></label>
+
+
+                    </form>
+                    <div class="scroll__wrapper">
+                        <a href="#" class="scroll__up__inner">
+                            <div class="scroll__up"></div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="information__inner">
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</br> Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+                    <div class="phone__wrapper">
+                        <i class="fas fa-phone-alt"> </i>
+                        <span>+380 (93) 747 20 62</span>
+                    </div>
+                    <div class="mail__wrapper">
+                        <i class="far fa-envelope"> </i>
+                        <span>info@rousepoint.com</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="img__wrapper">
+                    <img id="footer-cat" src="./assets/img/cats.png" alt="cats_footer">
+
+                </div>
+
+                <p>Просто мы любим то, что делаем.</p>
+            </div>
+        </footer>
+
+
+</body>
+
+</html>
